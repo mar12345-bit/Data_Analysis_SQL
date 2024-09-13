@@ -76,4 +76,4 @@ GROUP BY
 HAVING COUNT(*)>10
 ORDER BY 
      skills_pay DESC,
-     skills_count DESC
+     skills_count DESC;

@@ -20,4 +20,4 @@ GROUP BY
      skills_t.skill_id -- or skills
 ORDER BY 
      skills_count DESC
-LIMIT 5
+LIMIT 5;

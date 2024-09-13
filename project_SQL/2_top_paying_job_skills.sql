@@ -34,7 +34,7 @@ FROM top_paying_jobs
 INNER JOIN skills_job_dim AS skills_to_j ON skills_to_j.job_id=top_paying_jobs.job_id
 INNER JOIN skills_dim AS skills_t ON skills_t.skill_id=skills_to_j.skill_id 
 ORDER BY 
-     salary_year_avg DESC
+     salary_year_avg DESC;
      
 /*WITH skills AS(
      SELECT 

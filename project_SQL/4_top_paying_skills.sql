@@ -21,7 +21,7 @@ GROUP BY
      skills -- or skills skills_t.skill_id 
 ORDER BY 
      skills_pay DESC
-LIMIT 25
+LIMIT 25;
 
 /*
 Here's a breakdown of the results for top paying skills for Data Analysts:

@@ -15,10 +15,10 @@ SELECT
 FROM 
      job_postings_fact AS job_t
 LEFT JOIN company_dim  AS company_t ON job_t.company_id=company_t.company_id
- WHERE 
+WHERE 
      job_title_short='Data Analyst' AND
      job_location='Anywhere' AND
      salary_year_avg IS NOT NULL
 
- ORDER BY salary_year_avg DESC
- LIMIT 10
+ORDER BY salary_year_avg DESC
+LIMIT 10;
